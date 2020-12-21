@@ -17,3 +17,11 @@ export const GlobalStyle = () => {
     />
   )
 };
+
+export const pageWrappper = css`
+  min-height: 380px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
